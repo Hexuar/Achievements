@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:obsidian"
+    },
+    "title": "We Need to Go Deeper",
+    "description": "Build a portal to the Nether.",
+    "frame": "task"
+  },
+  "parent": "old_achievements:acquire_iron",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:the_nether"
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:book"
+    },
+    "title": "Taking Inventory",
+    "description": [
+      {
+        "text": "Press '"
+      },
+      {
+        "keybind": "key.inventory"
+      },
+      {
+        "text": "' to open your inventory."
+      }
+    ],
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "task"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}
