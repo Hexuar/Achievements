@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:beacon"
+    },
+    "title": "Beaconator",
+    "description": "Create a full beacon.",
+    "frame": "challenge"
+  },
+  "parent": "achievements:spawn_wither",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:construct_beacon",
+      "conditions": {
+        "level": 4
+      }
+    }
+  }
+}
